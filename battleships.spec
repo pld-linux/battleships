@@ -1,13 +1,13 @@
 Summary:	Battleships against the computer (character-cell graphics)
 Summary(pl):	Gra w statki przeciwko komputerowi
 Name:		battleships
-Version:	2.5
+Version:	2.6
 Release:	1
 License:	GPL
 Group:		Applications/Games
 Vendor:		Eric S. Raymond <esr@snark.thyrsus.com>
 Source0:	http://www.catb.org/~esr/bs/bs-%{version}.tar.gz
-# Source0-md5:	99ac7fad07623a86d3b3f155e11e72a6
+# Source0-md5:	3e31d0861400300b508cc8157e1709de
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://www.catb.org/~esr/bs/
 BuildRequires:	ncurses-devel
