@@ -3,8 +3,8 @@ Summary(pl):	Gra w statki przeciwko komputerowi
 Name:		battleships
 Version:	2.5
 Release:	1
-License:	GPL	
-Group:		Applcations/Games
+License:	GPL
+Group:		Applications/Games
 Vendor:		Eric S. Raymond <esr@snark.thyrsus.com>
 Source0:	http://www.catb.org/~esr/bs/bs-%{version}.tar.gz
 # Source0-md5:	99ac7fad07623a86d3b3f155e11e72a6
@@ -15,14 +15,14 @@ BuildRequires:	xmlto
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The classic game of Battleships against the computer.
-Uses character-cell graphics with a visual point-and-shoot interface.
+The classic game of Battleships against the computer. Uses
+character-cell graphics with a visual point-and-shoot interface.
 
 If you're using an xterm the mouse will work.
 
 %description -l pl
 Klasyczna gra w statki, tym razem przeciwko komputerowi. Posiada
-wizualny interfejs "wska¿ i strzel" (ang. "point and shoot"). 
+wizualny interfejs "wska¿ i strzel" (ang. "point and shoot").
 
 Je¶li u¿ywasz xterm, mysz nie bêdzie dzia³aæ.
 
