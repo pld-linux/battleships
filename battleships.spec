@@ -30,6 +30,7 @@ Je¶li u¿ywasz xterm, mysz nie bêdzie dzia³aæ.
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	CFLAGS="-I /usr/include/ncurses"
 
 %install
