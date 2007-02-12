@@ -1,5 +1,5 @@
 Summary:	Battleships against the computer (character-cell graphics)
-Summary(pl):	Gra w statki przeciwko komputerowi
+Summary(pl.UTF-8):   Gra w statki przeciwko komputerowi
 Name:		battleships
 Version:	2.7
 Release:	1
@@ -19,11 +19,11 @@ character-cell graphics with a visual point-and-shoot interface.
 
 If you're using an xterm the mouse will work.
 
-%description -l pl
+%description -l pl.UTF-8
 Klasyczna gra w statki, tym razem przeciwko komputerowi. Posiada
-wizualny interfejs "wska¿ i strzel" (ang. "point and shoot").
+wizualny interfejs "wskaÅ¼ i strzel" (ang. "point and shoot").
 
-Je¶li u¿ywasz xterm, mysz nie bêdzie dzia³aæ.
+JeÅ›li uÅ¼ywasz xterm, mysz nie bÄ™dzie dziaÅ‚aÄ‡.
 
 %prep
 %setup -q -n bs-%{version}
