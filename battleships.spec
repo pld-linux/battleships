@@ -1,5 +1,5 @@
 Summary:	Battleships against the computer (character-cell graphics)
-Summary(pl.UTF-8):   Gra w statki przeciwko komputerowi
+Summary(pl.UTF-8):	Gra w statki przeciwko komputerowi
 Name:		battleships
 Version:	2.7
 Release:	1
