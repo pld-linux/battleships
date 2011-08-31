@@ -2,7 +2,7 @@ Summary:	Battleships against the computer (character-cell graphics)
 Summary(pl.UTF-8):	Gra w statki przeciwko komputerowi
 Name:		battleships
 Version:	2.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Games
 Source0:	http://www.catb.org/~esr/bs/bs-%{version}.tar.gz
