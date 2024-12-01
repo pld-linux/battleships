@@ -1,11 +1,11 @@
---- bs-2.8/Makefile~	2010-10-19 12:33:34.000000000 +0200
-+++ bs-2.8/Makefile	2010-10-20 09:13:39.269953333 +0200
-@@ -10,7 +10,7 @@
+--- bs-2.13/Makefile.orig	2024-12-01 20:14:11.628052404 +0100
++++ bs-2.13/Makefile	2024-12-01 20:36:48.880699535 +0100
+@@ -11,7 +11,7 @@ CC = gcc
  DESTDIR = 
  
  bs: bs.c
--	$(CC) $(CFLAGS) -o bs bs.c $(TERMLIB)
-+	$(CC) $(CFLAGS) $(LDFLAGS) -o bs bs.c $(TERMLIB)
+-	$(CC) $(CFLAGS) -DVERSION='"$(VERSION)"' -o bs bs.c -lncurses
++	$(CC) $(CFLAGS) $(LDFLAGS) -DVERSION='"$(VERSION)"' -o bs bs.c $(TERMLIB)
  
- bs.6: bs.xml
- 	xmlto man bs.xml
+ # Note: to suppress the footers with timestamps being generated in HTML,
+ # we use "-a nofooter".
